@@ -1,0 +1,59 @@
+body {
+    color: purple;
+    background-color: lightblue;
+}
+h1 { 
+    font-family: 'sans-serif';
+    font-size: 50px;
+    text-align: center;
+}
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+h3 {
+    font-family: serif;
+    font-size: 20px;
+    text-align: center;
+    color: darkslateblue;
+}
+p {
+    line-height: 30px;
+    margin: 30px;
+}
+img {
+    border: solid 5px white;
+    padding: 10px;
+    margin: 20px;
+    border-top-right-radius: 30px;
+}
+nav {
+    border: solid 2px black;
+}
+li {
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    margin-left: 50px;
+}
+#skip {
+    text-transform: capitalize;
+    position: absolute;
+    left: -500px;
+}
+#skip:focus {
+    left: 200px;
+}
+nav a {
+    background-color: white;
+    padding: 5px;
+    margin: 40px;
+}
+a {
+    text-decoration: underline;
+}
+.thumbnail {
+    border: solid 5px blue;
+}
